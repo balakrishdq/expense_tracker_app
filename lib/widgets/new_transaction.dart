@@ -87,12 +87,13 @@ class _NewTransactionState extends State<NewTransaction> {
                   ),
                   TextButton(
                       style: ButtonStyle(
-                        foregroundColor:
-                            MaterialStateProperty.all(Colors.purple),
+                        foregroundColor: MaterialStateProperty.all(
+                          Colors.purple,
+                        ),
                       ),
                       onPressed: _presentDatePicker,
                       child: Text(
-                        'Choose Data',
+                        'Choose Date',
                       ))
                 ],
               ),
